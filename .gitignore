@@ -1,0 +1,8 @@
+node_modules/
+pnpm-lock.yaml
+*.log
+src/preview/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,37 @@
+MIT License
+
+Copyright (c) 2026 leemax1688
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Note on artwork / 关于素材
+
+The MIT license above covers the **code** in this repository.
+
+The images under `assets/` are fan artwork collected from public image boards
+and are **not** covered by this license. "Demon Slayer: Kimetsu no Yaiba" and
+its characters are the property of their respective rights holders; this is an
+unofficial, non-commercial fan skin. If you are a rights holder and want an
+image removed, open an issue and it will be taken down.
+
+`assets/` 下的图片是从公开图站收集的同人图，**不在** MIT 授权范围内。
+《鬼灭之刃》及其角色版权归原作者与权利方所有；本项目是非官方、非营利的同人皮肤。
+权利方如要求下架某张图，开 issue 即可，会立刻移除。

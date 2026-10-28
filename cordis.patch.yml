@@ -1,0 +1,5 @@
+# 鬼灭之刃皮肤：Host 侧一行 loader 记录（负责 /dsh-kimetsu 静态资源路由），
+# 前端皮肤由 package.json 的 dsh.client 载入 client.js。
+- insert:
+    - id: kimetsu-theme
+      name: 'dsh-kimetsu-theme'

@@ -1,0 +1,51 @@
+{
+  "name": "dsh-kimetsu-theme",
+  "version": "1.0.0",
+  "description": "Kimetsu no Yaiba skin for the DeepSeek Harness Web UI: night-forest palette over the stable --dsw-* token layer, breathing-style wallpaper rotation, a flame band and a toggle dock.",
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "theme",
+    "skin",
+    "kimetsu",
+    "demon-slayer"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "assets",
+    "screenshots.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leemax1688/dsh-kimetsu-theme.git"
+  },
+  "scripts": {
+    "build": "node tools/build-client.mjs",
+    "build:assets": "python tools/build-assets.py",
+    "build:tokens": "python tools/extract-tokens.py"
+  }
+}
