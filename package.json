@@ -23,7 +23,6 @@
     "client.js",
     "cordis.patch.yml",
     "assets",
-    "screenshots.json",
     "README.md",
     "LICENSE"
   ],
@@ -46,6 +45,7 @@
   "scripts": {
     "build": "node tools/build-client.mjs",
     "build:assets": "python tools/build-assets.py",
-    "build:tokens": "python tools/extract-tokens.py"
+    "build:tokens": "python tools/extract-tokens.py",
+    "test": "node tools/test-client.mjs"
   }
 }
