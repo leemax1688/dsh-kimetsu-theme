@@ -7,17 +7,22 @@ DeepSeek Harness (DSH) Web 界面的《鬼灭之刃》皮肤：鬼杀队绿 + �
 
 ## 安装
 
-```sh
-dsh plugin --profile web add dsh-kimetsu-theme
-```
-
-或装进你实际使用的 profile：
+没有发布到 npm（npm 账号暂不可用），用下面任意一种方式装：
 
 ```sh
-dsh plugin --profile <你的 profile> add dsh-kimetsu-theme
+# 1) 预打包 tarball（推荐，跳过构建授权）
+dsh plugin --profile web add https://github.com/leemax1688/dsh-kimetsu-theme/releases/download/v1.0.0/dsh-kimetsu-theme-1.0.0.tgz
+
+# 2) 直接从 GitHub 源码（本插件是纯 JS，不需要构建）
+dsh plugin --profile web add github:leemax1688/dsh-kimetsu-theme
+
+# 3) 本地目录
+dsh plugin --profile web add "C:\path\to\dsh-kimetsu-theme"
 ```
 
-装完刷新页面即可（多数情况无需重启）。卸载：
+Desktop 版请在 **插件 → 已安装 → 安装** 里粘上面任意一个目标（界面支持 npm 包名、git URL、tarball URL、本地绝对目录），确认后刷新。
+
+卸载：
 
 ```sh
 dsh plugin --profile web remove dsh-kimetsu-theme
